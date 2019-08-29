@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="InputInformation2">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="565" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="88732" binding="panel2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c881c" class="javax.swing.JLabel" binding="label1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font size="36" style="3"/>
+              <text value="录入运动员的信息"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2d2a9" binding="panel3" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5551e" class="javax.swing.JLabel" binding="label2">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="22" style="3"/>
+              <text value="姓名："/>
+            </properties>
+          </component>
+          <component id="e1375" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ecfe8" class="javax.swing.JLabel" binding="label3">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="20" style="3"/>
+              <text value="性别："/>
+            </properties>
+          </component>
+          <component id="143f" class="javax.swing.JLabel" binding="label5">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="20" style="3"/>
+              <text value="组别："/>
+            </properties>
+          </component>
+          <component id="18324" class="javax.swing.JLabel" binding="label6">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="20" style="3"/>
+              <text value="运动员文化成绩："/>
+            </properties>
+          </component>
+          <component id="3b014" class="javax.swing.JTextField" binding="此项不用填写TextField" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="此项不用填写"/>
+            </properties>
+          </component>
+          <component id="5f950" class="javax.swing.JLabel" binding="label7">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font size="20" style="3"/>
+              <text value="参与的比赛项目："/>
+            </properties>
+          </component>
+          <component id="a6330" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="7-8岁"/>
+                <item value="9-10岁"/>
+                <item value="11-12岁"/>
+              </model>
+            </properties>
+          </component>
+          <grid id="d0ee3" binding="panel4" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4131e" class="javax.swing.JCheckBox" binding="CheckBox1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="单杠（男）"/>
+                </properties>
+              </component>
+              <component id="92e29" class="javax.swing.JCheckBox" binding="CheckBox2">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="双杠（男）"/>
+                </properties>
+              </component>
+              <component id="bb9bb" class="javax.swing.JCheckBox" binding="CheckBox3">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="吊环（男）"/>
+                </properties>
+              </component>
+              <component id="1984e" class="javax.swing.JCheckBox" binding="CheckBox4">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="跳马（男）"/>
+                </properties>
+              </component>
+              <component id="97951" class="javax.swing.JCheckBox" binding="CheckBox5">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="自由体操（男）"/>
+                </properties>
+              </component>
+              <component id="70af7" class="javax.swing.JCheckBox" binding="CheckBox6">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="鞍马（男）"/>
+                </properties>
+              </component>
+              <component id="af5b5" class="javax.swing.JCheckBox" binding="CheckBox7">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="蹦床（男）"/>
+                </properties>
+              </component>
+              <component id="db794" class="javax.swing.JCheckBox" binding="CheckBox8">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="跳马（女）"/>
+                </properties>
+              </component>
+              <component id="d6e75" class="javax.swing.JCheckBox" binding="CheckBox9">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="高低杠（女）"/>
+                </properties>
+              </component>
+              <component id="d8c46" class="javax.swing.JCheckBox" binding="CheckBox10">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="平衡木（女）"/>
+                </properties>
+              </component>
+              <component id="e393" class="javax.swing.JCheckBox" binding="CheckBox11">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="自由体操（女）"/>
+                </properties>
+              </component>
+              <component id="95dea" class="javax.swing.JCheckBox" binding="CheckBox12">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <text value="蹦床（女）"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="50a17" class="javax.swing.JButton" binding="返回Button" default-binding="true">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <text value="返回"/>
+            </properties>
+          </component>
+          <component id="20b08" class="javax.swing.JComboBox" binding="comboBox0">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="男"/>
+                <item value="女"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a23f0" binding="panel5" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a2f11" class="javax.swing.JButton" binding="提交若有多人则需多次提交Button" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <font size="20" style="3"/>
+              <text value="提交（若有多人则需多次提交）"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
